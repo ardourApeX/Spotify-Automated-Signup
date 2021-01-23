@@ -184,8 +184,11 @@ if __name__ =="__main__":
 	df = pd.read_csv("./dataset.csv", dtype="str")
 	py.hotkey('winleft', '2') #Place Chrome at second position on taskbar
 	time.sleep(3) # Let chrome open
+	dfcopy = df.copy()
 
 	# Passing Each row 
 	for i in range(df.shape[0]):
-	    automation(*list(df.iloc[i]))
+	    automation(*list(dfcopy.iloc[i]))
+	    dfcopy.drop(i, inplace = True)
 	py.hotkey("altleft", "f4")
+	dfcopy.to_csv("./updated_data.csv")

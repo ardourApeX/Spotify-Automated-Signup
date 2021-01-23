@@ -8,7 +8,7 @@
 
 ![](./Images/setting2.PNG)
 
-3. Pin Chrome on Taskbar at 2nd position.
+3. Pin Chrome on Taskbar at 2nd position
 
 ![](./Images/Taskbar.PNG)
 
@@ -18,4 +18,6 @@
 
 ```pip install -r reuquirements.txt``` : Install all the dependencies
 
-```python Automation.py``` : Run the pyhton file
+```python Automation.py``` : Run the python file
+
+You may use ```updated_data.csv``` in case if program gets crashed.
