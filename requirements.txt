@@ -1,0 +1,6 @@
+PyAutoGUI 0.9.52
+PyAudio 0.2.11
+SpeechRecognition 3.8.1
+pandas 1.2.1
+pyperclip3 0.2.1
+Wave 0.0.2
